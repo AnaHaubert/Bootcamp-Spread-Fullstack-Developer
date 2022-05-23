@@ -1,0 +1,23 @@
+body {
+    margin: 25px;
+}
+
+h2 {
+    color: SteelBlue;
+}
+
+#input {
+    border: 1px solid SteelBlue;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px;
+}
+
+#button {
+    font-size: 12px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: Cyan;
+    color: SteelBlue;
+}
