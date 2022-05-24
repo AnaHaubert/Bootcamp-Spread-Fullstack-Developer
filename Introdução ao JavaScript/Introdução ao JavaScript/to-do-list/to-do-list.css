@@ -1,5 +1,7 @@
 body {
-    margin: 25px;
+    margin: 25px 50px;
+    font-family: Verdana;
+    font-size: 12px;
 }
 
 h2 {
@@ -21,3 +23,14 @@ h2 {
     background-color: Cyan;
     color: SteelBlue;
 }
+
+#list {
+    list-style: none;
+    padding-left: 0;
+}
+
+:checked + label {
+    text-decoration: line-through;
+    color: lightgrey;
+}
+  

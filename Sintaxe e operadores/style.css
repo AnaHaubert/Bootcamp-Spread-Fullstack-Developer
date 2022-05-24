@@ -1,0 +1,38 @@
+* {
+    font-family: Verdana;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 50px;
+}
+
+.input {
+    width: 40%;
+    font-size: 12px;    
+    border: 2px solid indigo;
+    border-radius: 5px;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    width: 20%;
+    border-radius: 5px;
+    border: none;
+    font-size: 12px;
+    padding: 5px;
+    background-color: indigo;
+    color: white;
+}
+
+.mensagem {
+    font-size: 16px;
+    color: indigo;
+    width: 40%;
+    border: 1px solid indigo;
+    border-radius: 5px;
+    margin-top: 2rem;
+    padding: 1rem;
+}
